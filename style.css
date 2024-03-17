@@ -2,12 +2,14 @@
 
 
 
-
-
 /* . class */
 
+.logotipia {
+    
+}
+
 .inicio {
-    background-color: #FFF4EC;
+    background-color: #C2B1F5;
     }
 
 .portfolio {
@@ -15,28 +17,32 @@
     }
 
 .sobre {
-    background-color: #FFF4EC;
+    background-color: #FFC2EA;
 }
 
 .servicos {
-    background-color: #FFF4EC;
+    background-color: #E5F4B2;
 }
 
 .contato {
-    background-color: rgb(66, 133, 133);
+    background-color: #C2B1F5;
 }
-
-    
-
-    
-
-
-
-
 
 
 
 /* tags */
+
+header {
+    background-color: #C2B1F5
+}
+
+footer {
+    background-color: #C2B1F5
+}
+
+nav {
+    
+}
 
 
 
