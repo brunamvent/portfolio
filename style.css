@@ -9,12 +9,22 @@
 
 .logotipia {
     font-family:'poppins',sans-serif;
-    font-style: normal;
     color: #E5F4B2;
     
 }
 
 .inicio {
+    background-color: #C2B1F5;
+    font-family:'poppins',sans-serif;
+    color: #fff;
+    text-decoration: line-through;
+    color: ;
+
+.intro {
+    background-color: #C2B1F5;
+    font-family: 'poppins',sans-serif;
+    color: #977ADE;
+}
 
 
     background-color: #C2B1F5;
@@ -50,4 +60,5 @@ footer {
 
 nav {
     list-style-type: style type none;
+    color: #C2B1F5;
 }
