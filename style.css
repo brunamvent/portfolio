@@ -1,64 +1,120 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin:0;
 }
 
-/* . class */
+/* fontes */
+
+h1 {
+    font-family: 'poppins', sans serif;
+}
+
+h2 {
+    font-family: 'poppins', sans serif;
+}
+
+h3 {
+    font-family: 'poppins', sans serif;
+}
+
+h4 {
+    font-family: 'poppins', sans serif;
+}
+
+p {
+    font-family: 'poppins', sans serif;
+}
+
+ul {
+    font-family: 'poppins', sans serif;
+}
+
+/* blocos */
 
 
+header {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: #C2B1F5
+}
 
 .logotipia {
+    display: block;
     font-family:'poppins',sans-serif;
-    color: #E5F4B2;
-    
+    color: #E5F4B2;  
 }
 
+.menu {
+    list-style-type: none;
+    float: right;
+    display: inline-block
+}
+
+
 .inicio {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
     background-color: #C2B1F5;
     font-family:'poppins',sans-serif;
     color: #fff;
-    text-decoration: line-through;
-    color: ;
-
-.intro {
-    background-color: #C2B1F5;
-    font-family: 'poppins',sans-serif;
-    color: #977ADE;
-}
-
-
     background-color: #C2B1F5;
     }
 
+
 .portfolio {
+
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
     background-color: #FFF4EC;
     }
 
 .sobre {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
     background-color: #FFC2EA;
 }
 
 .servicos {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
     background-color: #E5F4B2;
 }
 
 .contato {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 2%;
+    padding-bottom: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
     background-color: #C2B1F5;
 }
 
-
-
-/* tags */
-
-header {
-    background-color: #C2B1F5
-}
-
 footer {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
     background-color: #C2B1F5
-}
-
-nav {
-    list-style-type: style type none;
-    color: #C2B1F5;
 }
