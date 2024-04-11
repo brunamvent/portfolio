@@ -22,6 +22,7 @@ h4 {
 
 p {
     font-family: 'poppins', sans serif;
+    font-size: 20px;
 }
 
 ul {
@@ -39,22 +40,38 @@ ul {
     padding-right: 4%;
     font-family:'poppins',sans-serif;
     color: #fff;
-    background: radial-gradient(ellipse at top, #E1C8E9, transparent),
-    radial-gradient(ellipse at bottom, #C2B1F5, transparent),
-    radial-gradient(circle at 10%, #E0ADF1, transparent);
+    background: radial-gradient(ellipse at top, #B197F2, transparent),
+    radial-gradient(ellipse at bottom, #d0c1fd, transparent),
+    radial-gradient(circle at 15%, #e69bff, transparent);
 
+    
     }
+  
 
-.logotipia {
-    display: block;
-    font-family:'poppins',sans-serif;
-    color: #E8FE9C;  
-}
 
 .menu {
     list-style-type: none;
-    float: right;
-    display: inline-block
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    font-size: 18px; 
+    font-weight:800;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    display: inline;
+}
+
+.menu li a:hover {
+    color: #E8FE9C;
 }
 
 
@@ -68,6 +85,13 @@ ul {
     padding-right: 4%;
     background-color: #FFEDDF;
     }
+
+.projetos {
+    background-color: #FFEDDF;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    gap: 24px;
+}
 
 .sobre {
     margin-top: 0%;
