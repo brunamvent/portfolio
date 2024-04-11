@@ -1,31 +1,5 @@
 * {
     margin:0;
-}
-
-/* fontes */
-
-h1 {
-    font-family: 'poppins', sans serif;
-}
-
-h2 {
-    font-family: 'poppins', sans serif;
-}
-
-h3 {
-    font-family: 'poppins', sans serif;
-}
-
-h4 {
-    font-family: 'poppins', sans serif;
-}
-
-p {
-    font-family: 'poppins', sans serif;
-    font-size: 20px;
-}
-
-ul {
     font-family: 'poppins', sans serif;
 }
 
@@ -38,16 +12,11 @@ ul {
     padding-bottom: 10%;
     padding-left: 4%;
     padding-right: 4%;
-    font-family:'poppins',sans-serif;
-    color: #fff;
     background: radial-gradient(ellipse at top, #B197F2, transparent),
     radial-gradient(ellipse at bottom, #d0c1fd, transparent),
     radial-gradient(circle at 15%, #e69bff, transparent);
-
-    
     }
   
-
 
 .menu {
     list-style-type: none;
@@ -87,10 +56,10 @@ ul {
     }
 
 .projetos {
-    background-color: #FFEDDF;
     display: grid;
     grid-template-columns: 600px 600px;
-    gap: 24px;
+    gap: 40px;;
+
 }
 
 .sobre {
