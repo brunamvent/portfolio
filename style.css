@@ -15,6 +15,10 @@
     background: radial-gradient(ellipse at top, #B197F2, transparent),
     radial-gradient(ellipse at bottom, #d0c1fd, transparent),
     radial-gradient(circle at 15%, #e69bff, transparent);
+
+    display: grid;
+    grid-template-columns: 750px 600px;
+    gap:50px;
     }
   
 
@@ -79,8 +83,8 @@ h4 a{
 
 .sobre_layout {
         display: grid;
-        grid-template-columns: 600px 600px;
-        gap: 200px;
+        grid-template-columns: 600px 740px;
+        gap:60px;
 }
 
 .servicos {
@@ -91,6 +95,13 @@ h4 a{
     padding-left: 4%;
     padding-right: 4%;
     background-color: #E5F4B2;
+}
+
+.servicos_layout {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap:200px;
+    text-align: center;
 }
 
 .contato {
